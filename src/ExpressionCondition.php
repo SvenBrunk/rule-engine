@@ -10,10 +10,10 @@ use Symfony\Component\ExpressionLanguage\ExpressionLanguage;
 class ExpressionCondition
 {
     /** @var string */
-    private $expression;
+    private string $expression;
 
     /** @var ExpressionLanguage */
-    private $expressionLanguage;
+    private ExpressionLanguage $expressionLanguage;
 
     /**
      * @param string             $expression         The expression to be checked, e.g. "basket.getPrice() > 100"
